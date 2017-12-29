@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maria's Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Contrail+One|Special+Elite" rel="stylesheet">
+    <style type="text/css">
+        #sq, #lg-sq, #thumb, #small, #mid, #ori {
+            width: 100%
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <button id="color">Change color!</button>
+        <h1>MS Photography</h1>
+
+            <div class="navigationheader">
+                <a class="active" href="#home">Home</a>
+                <a href="#home">Photos</a>
+                <a href="shipmanwebpage.html">About</a>
+            </div>
+    </header>
+        <h2>Welcome to Maria's Personal Webpage</h2>
+            <p>As you navigate through the webpage, you'll be linked to photography from the past 3 years and a link about the developer.
+            All photography is credited to my husband, Doug Shipman and I as we venture through our travels.</p>
+    <div class="list">A little background on the tools utilized:
+        <ul>
+            <li>Nikon
+            <li>iphone 5, 6, 7 & X
+            <li>Go Pro</li>
+        </ul>
+    </div>
+
+
+
+        <script>
+document.getElementById('color').onclick=changeColor;
+var currentColor="red";
+function changeColor() {
+    if(currentColor=="red") {
+        document.body.style.color = "green";
+        currentColor="green";
+    } else{
+            document.body.style.color = "red";
+            currentColor="red";
+    }
+    return currentColor;
+}
+        </script>
+
+    <photos page="2" pages="89" perpage="10" total="881">
+        <photo id="2636" owner="a453102782ac6e5a8646016a0a1967ba"
+    secret="3cc148c6d6ac5199" server="2" title="test_04"
+    ispublic="1" isfriend="0" isfamily="0" />
+        <photo id="2635" owner="a453102782ac6e5a8646016a0a1967ba"
+    secret="3cc148c6d6ac5199" server="2" title="test_03"
+    ispublic="0" isfriend="1" isfamily="1" ></photo>
+        <photo id="2633" owner="a453102782ac6e5a8646016a0a1967ba"
+    secret="3cc148c6d6ac5199" server="2" title="test_01"
+    ispublic="1" isfriend="0" isfamily="0" />
+        <photo id="2610" owner="a453102782ac6e5a8646016a0a1967ba"
+    secret="3cc148c6d6ac5199" server="2" title="00_tall"
+    ispublic="1" isfriend="0" isfamily="0" />
+        </photos>
+
+
+</body>
+
+<footer>
+    <p>all rights reserved</p>
+</footer>
+
+</html>

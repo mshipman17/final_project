@@ -1,0 +1,64 @@
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+    padding-bottom: 5%;
+    border-bottom: double #ff293f;
+    letter-spacing: 50px;
+    font-family: 'Contrail One', cursive;
+    background: black;
+    color: white;
+}
+.navigationheader a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.navigationheader {
+    background: black;
+    font-size: 20px;
+}
+
+.navigationheader a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 17px;
+}
+
+.navigationheader {
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Special Elite', cursive;
+}
+
+.navigationheader a.active {
+    background-color: blue;
+    color: turquoise;
+}
+h1 header {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.list {
+    text-align: left;
+    color: blue;
+    font-family: 'Special Elite', cursive;
+    display: inline;
+}
+
+footer {
+    padding-top: 150px;
+    color: whitesmoke;
+}
+
+body {
+    background-color: ivory;
+    font-family: 'Special Elite', cursive;
+    background-image: url("img_0154.jpg");
+    background-repeat: no-repeat;
+
+}
